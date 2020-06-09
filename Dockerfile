@@ -4,3 +4,4 @@ LABEL maintainer "Zan Loy <zan.loy@gmail.com>"
 ## Install custom Fluentd plugins
 RUN fluent-gem install 'fluent-plugin-rewrite-tag-filter'
 RUN fluent-gem install 'fluent-plugin-record-modifier'
+RUN fluent-gem install 'fluent-plugin-json-in-json-2'
