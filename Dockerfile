@@ -5,4 +5,4 @@ LABEL maintainer "Zan Loy <zan.loy@gmail.com>"
 RUN fluent-gem install 'fluent-plugin-rewrite-tag-filter'
 RUN fluent-gem install 'fluent-plugin-record-modifier'
 RUN fluent-gem install 'fluent-plugin-json-in-json-2'
-RUN fluent-gem install 'fluent-plugin-stdout-pp'
+RUN fluent-gem install 'fluent-plugin-rename-key'
